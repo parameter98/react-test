@@ -1,0 +1,33 @@
+html,body {
+    margin: 0 0 0 0;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid gray;
+}
+
+.header-icon {
+    width: 5rem;
+    height: 5rem;
+    background-color: skyblue;
+}
+
+.header-menu{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-menu-list{
+    display: flex;
+    flex-direction: row;
+    
+}
+li {
+    list-style: none;  
+    padding-right: 2rem;
+}
