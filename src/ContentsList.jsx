@@ -1,13 +1,14 @@
+import styles from "./ContentsList.module.css";
 
 const ContentsList = (props) => {
     return(
-        <li className="article-list">
-            <div className="article-left">
+        <li className={styles.articleList}>
+            <div className={styles.articleLeft}>
                 <img src="" alt="" />
-                <p>{props.companyName}Company-name</p>
-                <div className="article-left-rank">{props.starRank}1~5stars</div>
+                <p>{props.companyName}</p>
+                <div className="article-left-rank">{props.starRank}stars</div>
             </div>
-            <div className="article-right">
+            <div className={styles.articleRight}>
                 <p>{props.articleContents}</p>
                 <p>{props.articleDiscription}</p>
             </div>

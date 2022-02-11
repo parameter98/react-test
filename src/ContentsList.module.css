@@ -1,0 +1,17 @@
+.articleList {
+  display: flex;
+  flex-grow: 1;
+}
+.articleLeft {
+  flex-grow: 1;
+  padding-right: 2rem;
+  width: 8rem;
+  background-color: aquamarine;
+}
+.articleRight {
+  padding: 1rem 1rem 1rem 3rem;
+  flex-grow: 3;
+  width: 15rem;
+  border-left: 2px solid rgb(195, 193, 193);
+  background-color: burlywood;
+}

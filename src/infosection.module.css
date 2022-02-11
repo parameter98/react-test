@@ -1,0 +1,9 @@
+.informationsection {
+  flex-grow: 3;
+  padding-right: 1.2rem;
+  background-color: rgb(106, 211, 211);
+  width: 60vw;
+  padding-left: 1rem;
+  border-left: 2.3px solid gray;
+  margin-top: 1rem;
+}
